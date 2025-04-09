@@ -76,7 +76,7 @@ To replicate our pipeline and obtain the same results, follow the steps outlined
 
 ---
 
-### 🖼️ Step 4: Generating PyMOL Images
+### Step 4: Generating PyMOL Images
 
 - Open `6m0j_fixed` in **PyMOL**
 - Follow the provided pipeline (`pymol_pipeline.txt`) to:
@@ -86,7 +86,7 @@ To replicate our pipeline and obtain the same results, follow the steps outlined
 
 ---
 
-## 👥 Contributors
+## Contributors
  
 - María López  [MLM19](https://github.com/MLM19)
 - Stephanie Padilla [MstephPad](https://github.com/MstephPad)
