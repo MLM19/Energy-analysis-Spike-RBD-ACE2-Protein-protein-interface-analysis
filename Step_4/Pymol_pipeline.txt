@@ -1,0 +1,38 @@
+PYMOL
+
+1.color by chain: 
+util.cbc
+
+2.make selections of the chains using the sequence.
+	in this case ChainA, chainE
+
+3.to get interface: 
+select interface1, byres ChainA within 4.3 of ChainE  #residues of interface in chainA
+#select interface2, byres ChainE within 4.3 of ChainA ?
+
+4.
+Action > find > polar contacts > with any atoms
+color them magenta
+
+5.
+Show lines for ChainA and ChainE
+
+6. for easier visualization
+color by atoms
+
+7. Select the interactions between chains manually
+
+8. Wizard > Mesurement > Distances
+	*Merge with previous -> to obtain all in one object
+	Retrace each of the interactions measuring each of the interactions
+	
+9. take pictures
+
+ALA SCANNING
+1. select interested aminoacid
+2. color it
+3. label residue
+4. Wizard > Mutagenesis > click on no mutation and change it into ALA
+5. label it again
+6. find if it does the same interaction and the distance
+7. take picture
